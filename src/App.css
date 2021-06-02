@@ -41,3 +41,14 @@ body {
     margin-left: 10px;
     cursor: pointer;
 }
+.app .todos{
+    padding-top: 5px;
+   border: 1px solid white;
+   margin: 5px;
+}
+.todos i{
+    cursor: pointer;
+}
+input[type=checkbox]:checked{
+    background-color: rgb(3, 24, 43);
+}

@@ -2,21 +2,26 @@ import './App.css'
 
 function App() {
   return (
-    <div>
-      <h1> Welcome to todo list</h1>
-      <div className="container">
+    <div className="app">
+      <div className="container-fluid mt-5">
         <div className="row">
           <div className="col-sm-6 col-lg-3">
             <h1 className="heading">To do list</h1>
             <h5 className="sub-heading">Whoop its Wednesday ☕ </h5>
             <div className="input">
               <input type="text" className="input-text" name="" id="" />
-              <i class="fa fa-plus"></i>
+              <i className="fa fa-plus"></i>
             </div>
-            <div className="card">
-              <div className="card-body" style={{ color: '#000' }}>
-                <div className="todos">
-
+            <div className="row mt-3 todos ">
+              <div className="col-12 ">
+                <div className="d-flex justify-content-between ">
+                  <div>
+                  <input className="ml-3" type="checkbox" name="" id="" />
+                  <label className="ml-3" >Todo item</label>
+                  </div>
+                  <div className="mr-5">
+                  <i className="fas fa-times"></i>
+                  </div>
                 </div>
               </div>
             </div>
