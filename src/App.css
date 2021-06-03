@@ -52,3 +52,10 @@ body {
 input[type=checkbox]:checked{
     background-color: rgb(3, 24, 43);
 }
+.sub-heading{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size: medium;
+}
